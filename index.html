@@ -18,8 +18,8 @@
       style="height: 100vh"
     >
       <h1>Simple calculator using Bootstrap 5</h1>
-      <div class="row">
-        <div class="col">
+      <div class="row intput-row">
+        <div class="col intput-col">
           <input type="text" class="display" readonly />
         </div>
       </div>
@@ -31,7 +31,7 @@
             <button onclick="displayValue('7')">7</button>
             <button onclick="displayValue('8')">8</button>
             <button onclick="displayValue('9')">9</button>
-            <button id="operator" onclick="displayValue('/')">/</button>
+            <button class="operator" onclick="displayValue('/')">/</button>
           </div>
         </div>
 
@@ -40,7 +40,7 @@
             <button onclick="displayValue('4')">4</button>
             <button onclick="displayValue('5')">5</button>
             <button onclick="displayValue('6')">6</button>
-            <button id="operator" onclick="displayValue('*')">*</button>
+            <button class="operator" onclick="displayValue('*')">*</button>
           </div>
         </div>
 
@@ -49,16 +49,16 @@
             <button onclick="displayValue('1')">1</button>
             <button onclick="displayValue('2')">2</button>
             <button onclick="displayValue('3')">3</button>
-            <button id="operator" onclick="displayValue('+')">+</button>
+            <button class="operator" onclick="displayValue('+')">+</button>
           </div>
         </div>
 
         <div class="row">
           <div class="col d-flex">
-            <button id="operator" onclick="clearDisplay()">C</button>
+            <button class="operator" onclick="clearDisplay()">C</button>
             <button onclick="displayValue('0')">0</button>
-            <button id="operator" onclick="calculate()">=</button>
-            <button id="operator" onclick="displayValue('-')">-</button>
+            <button class="operator" onclick="calculate()">=</button>
+            <button class="operator" onclick="displayValue('-')">-</button>
           </div>
         </div>
       </div>

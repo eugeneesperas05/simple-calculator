@@ -49,21 +49,18 @@ button:active {
   background: rgb(242, 158, 144);
 }
 
-#operator {
+.operator {
   background: tomato;
   color: #fff;
   font-weight: 400;
   font-size: 2.5rem;
 }
 
-#operator:hover {
+.operator:hover {
   background: #fff;
   color: #000;
 }
 
-#operator:active {
+.operator:active {
   background: rgb(242, 158, 144);
-}
-
-@media screen and (max-width: 490px) {
 }
